@@ -7,7 +7,7 @@
 	(title_block
 		(title "ESP Drone")
 		(date "2024-07-09")
-		(rev "1.42b")
+		(rev "1.44a")
 		(company "Chebe's Lab")
 		(comment 1 "Edgar Nyandoro")
 	)
@@ -880,6 +880,17 @@
 						(type none)
 					)
 				)
+				(circle
+					(center 5.08 2.54)
+					(radius 0.3592)
+					(stroke
+						(width 0.2032)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
 				(polyline
 					(pts
 						(xy 5.08 2.54) (xy 5.715 2.54)
@@ -893,7 +904,7 @@
 					)
 				)
 				(circle
-					(center 5.08 2.54)
+					(center 5.08 -2.54)
 					(radius 0.3592)
 					(stroke
 						(width 0.2032)
@@ -909,17 +920,6 @@
 					)
 					(stroke
 						(width 0.127)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(circle
-					(center 5.08 -2.54)
-					(radius 0.3592)
-					(stroke
-						(width 0.2032)
 						(type default)
 					)
 					(fill
@@ -5758,18 +5758,6 @@
 				)
 				(polyline
 					(pts
-						(xy 7.62 5.08) (xy 7.62 7.62)
-					)
-					(stroke
-						(width 0.254)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
 						(xy 7.62 5.08) (xy 5.842 5.08)
 					)
 					(stroke
@@ -5782,7 +5770,7 @@
 				)
 				(polyline
 					(pts
-						(xy 7.62 2.54) (xy 5.842 2.54)
+						(xy 7.62 5.08) (xy 7.62 7.62)
 					)
 					(stroke
 						(width 0.254)
@@ -5795,6 +5783,18 @@
 				(polyline
 					(pts
 						(xy 7.62 2.54) (xy 7.62 -2.54)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 7.62 2.54) (xy 5.842 2.54)
 					)
 					(stroke
 						(width 0.254)
@@ -6636,7 +6636,7 @@
 						(type default)
 					)
 					(fill
-						(type outline)
+						(type none)
 					)
 				)
 				(arc
@@ -6648,7 +6648,7 @@
 						(type default)
 					)
 					(fill
-						(type none)
+						(type outline)
 					)
 				)
 				(polyline
@@ -6710,17 +6710,6 @@
 						(type none)
 					)
 				)
-				(circle
-					(center 0 -5.842)
-					(radius 1.27)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type outline)
-					)
-				)
 				(polyline
 					(pts
 						(xy 0 -5.842) (xy 0 4.318)
@@ -6731,6 +6720,17 @@
 					)
 					(fill
 						(type none)
+					)
+				)
+				(circle
+					(center 0 -5.842)
+					(radius 1.27)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type outline)
 					)
 				)
 				(rectangle
@@ -22329,7 +22329,7 @@
 			(at 45.72 114.554 90)
 			(effects
 				(font
-					(size 1.27 1.27)
+					(size 1.143 1.143)
 				)
 				(justify left)
 			)
